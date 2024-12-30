@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 120vh;
+    /* background-color: rgba(0, 0, 0, 0.678); */
+    background-color: rgba(0, 0, 0, 0.74);
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 7%;
+    /* height: 13vh; */
+    
+    
+}
+
+.header .logo #cinwaan{
+    color: #ff7200;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+ul li{
+    list-style: none;
+    padding-right: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.contant{
+    width: 40%;
+    padding-top: 100px;
+    /* margin-left: 80px; */
+}
+.contant h2{
+    color: #ff7200;
+}
+
+.contant h1{
+    font-size: 40px;
+    color: white;
+}
+
+.contant  p{
+    font-size: 15px;
+    padding: 20px 0px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contant #btn-1{
+    background-color: transparent;
+    padding: 8px 35px;
+    border-radius: 30px;
+    background-color: #ff7200;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.contant #btn-2{
+    background-color: transparent;
+    padding: 8px 30px;
+    border-radius: 30px;
+    background-color: #ff7200;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.portfolioimage{
+    width: 40%;
+}
+
+.portfolioimage img{
+    height: 700px;
+   margin-top: -100px;
+}
+
+.pipe {
+    font-weight: 200;
+   
+}
+
+.header i{
+    display: none;
+}
+
+/* last */
+
+.last-section{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.last-section .left-side{
+    width: 330px;
+    /* background-color: green; */
+}
+.last-section img{
+    width: 300px;
+    height: 430px;
+    margin-top: 30px;
+    border: 8px solid red;
+}
+
+.right-side{
+    width: 500px;
+    height: 390px;
+    
+}
+.right-side h2{
+    word-spacing: 3px;
+    padding-bottom: 20px;
+}
+.right-side h2 span{
+    color: red;
+}
+
+.right-side #pgra{
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.separate-txt{
+    padding-top: 20px;
+}
+.separate-txt .div1{
+    display: flex;
+    gap: 200px;
+    padding-bottom: 13px;
+}
+.separate-txt .div1 p{
+    font-size: 14px;
+}
+
+#download{
+    background-color: red;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+/* responsive mopile */
+
+@media  (max-width: 390px){
+    .container{
+      width: 100%;
+      height: 135vh;
+    }
+    .header{
+        /* display: block; */
+        width: 100%;
+        padding: 8px 20px;
+    }
+    .header ul{
+        display: none;
+        
+    }
+    .header i{
+        display: block;
+        color: white;
+        font-size: 1.6em;
+        padding-top: 14px;
+    }
+    .main{
+        display: block;
+        width: 100%;
+    }
+    .contant{
+        padding: 0;
+        width: 100%;
+        padding:40px 40px;
+        
+        
+
+    }
+    .portfolioimage{
+        width: 100%;
+        
+    }
+    .portfolioimage img{
+       
+        width: 500px;
+        height: 580px;
+        padding: 0;
+        
+        
+        margin: 0;
+        /* border-radius: 50%; */
+        border-radius: 50%;
+        margin-left: -25px;
+    }
+   .last-section{
+   
+    display: block;
+   }
+   .last-section .left-side{
+    width: 100%;
+   }
+   .last-section .left-side img{
+    
+    margin-left: 70px;
+   }
+   .last-section .right-side{
+    width: 80%;
+    padding-top: 20px;
+    margin-left: 55px;
+   }
+  
+
+   .separate-txt .div1 h4{
+    font-size: 18px;
+   }
+   .separate-txt .div1 p{
+    font-size: 17px;
+   }
+}
+
+
+
